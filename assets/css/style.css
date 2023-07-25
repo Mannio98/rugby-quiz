@@ -32,15 +32,15 @@ h1 {
 }
 
 h2 {
+    text-decoration: underline;
+}
+
+h3{
     font-size: 60px;
     text-align: center;
     color: white;
     background-color: darkgreen;
     text-decoration: underline;
-}
-
-h3{
-   text-decoration: underline;
 }
 
 button[type="submit"] {
