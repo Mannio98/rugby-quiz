@@ -21,4 +21,6 @@ function calculateScore() {
 function showResult(score) {
     const resultContainer = document.getElementById('results');
     resultContainer.innerHTML = 'Your score: ' + score + ' out of 10';
+    resultContainer.scrollIntoView({ behavior: 'instant'});
 }
+
