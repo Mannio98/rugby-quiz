@@ -15,7 +15,7 @@
         <h1>Test your knowledge of Irelands RWC history</h1>
     </header>
     <div id="quiz">
-        <div class="question">
+        <div class="question" id="question0">
             <h3>Who is Ireland's all-time leading try-scorer in World Cup tournaments?</h3>
             <label>
                 <input type="radio" name="question0" value="0">
@@ -35,7 +35,7 @@
             </label>
         </div>
 
-        <div class="question">
+        <div class="question" id="question1">
             <h3>In which Rugby World Cup did Ireland reach their first-ever quarterfinals?</h3>
             <label>
                 <input type="radio" name="question1" value="0">
@@ -55,7 +55,7 @@
             </label>
         </div>
 
-        <div class="question">
+        <div class="question" id="question2">
             <h3>How many matches did Ireland win during the 2007 Rugby World Cup?</h3>
             <label>
                 <input type="radio" name="question2" value="0">
@@ -75,8 +75,8 @@
             </label>
         </div>
 
-        <div class="question">
-            <h3>Who was the head coach of the Ireland rugby team during the 1995 Rugby World Cup?</h3>
+        <div class="question" id="question3">
+            <h3>Who was the head coach of the Ireland rugby team during the 1999 Rugby World Cup?</h3>
             <label>
                 <input type="radio" name="question3" value="0">
                 George Hook
@@ -95,7 +95,7 @@
             </label>
         </div>
 
-        <div class="question">
+        <div class="question" id="question4">
             <h3>In the 2011 Rugby World Cup, who did Ireland finish directly ahead of in the group stages?</h3>
             <label>
                 <input type="radio" name="question4" value="0">
@@ -115,7 +115,7 @@
             </label>
         </div>
 
-        <div class="question">
+        <div class="question" id="question5">
             <h3>Ireland made their Rugby World Cup debut in which year?</h3>
             <label>
                 <input type="radio" name="question5" value="0">
@@ -135,7 +135,7 @@
             </label>
         </div>
 
-        <div class="question">
+        <div class="question" id="question6">
             <h3>Which country knocked Ireland out of the 2011 Rugby World Cup?</h3>
             <label>
                 <input type="radio" name="question6" value="0">
@@ -155,7 +155,7 @@
             </label>
         </div>
 
-        <div class="question">
+        <div class="question" id="question7">
             <h3>Who captained the Ireland rugby team during the 2019 Rugby World Cup?</h3>
             <label>
                 <input type="radio" name="question7" value="0">
@@ -175,7 +175,7 @@
             </label>
         </div>
 
-        <div class="question">
+        <div class="question" id="question8">
             <h3>How many times has Ireland made the semi-finals of the World Cup?</h3>
             <label>
                 <input type="radio" name="question8" value="0">
@@ -195,7 +195,7 @@
             </label>
         </div>
 
-        <div class="question">
+        <div class="question" id="question9">
             <h3>Which Ireland player scored a four tries against the USA in the 1999 Rugby World Cup?</h3>
             <label>
                 <input type="radio" name="question9" value="0">
@@ -215,7 +215,7 @@
             </label>
         </div>
 
-        <button type="submit">Submit Answers</button>
+        <button type="submit" onclick="calculateScore()">Submit Answers</button>
     </div>
 
     <div id="results"></div>
