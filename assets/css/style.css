@@ -21,7 +21,7 @@ body {
     font-family: 'Inter', sans-serif;
     font-size: 22px;
     color: darkgreen;
-    margin-bottom: 75px;
+    /*margin-bottom: 75px;*/
 }
 
 h1 {
@@ -33,4 +33,20 @@ h1 {
 
 h3{
    text-decoration: underline;
+}
+
+button[type="submit"] {
+    display: block;
+    margin: 30px auto;
+    padding: 10px 10px;
+    font-size: 22px;
+    background-color: darkgreen;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+ 
+button[type="submit"]:hover {
+     background-color: black;
 }
