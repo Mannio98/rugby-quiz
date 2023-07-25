@@ -8,10 +8,20 @@ body {
     padding: 0;
 }
 
+#quiz {
+    max-width: 65%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid lightgray;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
 .question {
     font-family: 'Inter', sans-serif;
     font-size: 22px;
     color: darkgreen;
+    margin-bottom: 75px;
 }
 
 h1 {
@@ -19,4 +29,8 @@ h1 {
     text-align: center;
     color: #ffffff;
     background-color: darkgreen;
+}
+
+h3{
+   text-decoration: underline;
 }
