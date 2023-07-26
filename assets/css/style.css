@@ -8,6 +8,7 @@ body {
     padding: 0;
 }
 
+
 #quiz {
     max-width: 65%;
     margin: 0 auto;
@@ -17,11 +18,11 @@ body {
     text-align: center;
 }
 
+
 .question {
     font-family: 'Inter', sans-serif;
     font-size: 22px;
     color: darkgreen;
-    /*margin-bottom: 75px;*/
 }
 
 h1 {
@@ -42,6 +43,7 @@ h3{
     background-color: darkgreen;
     text-decoration: underline;
 }
+
 
 button[type="submit"] {
     display: block;

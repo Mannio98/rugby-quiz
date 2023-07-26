@@ -24,3 +24,4 @@ function showResult(score) {
     resultContainer.scrollIntoView({ behavior: 'instant'});
 }
 
+document.getElementById('submitBtn').addEventListener('click', calculateScore);
