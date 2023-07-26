@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Oswald:wght@300&display=swap');
 
-
+/* Imported and used Oswald font from Google Fonts as it is tidy and suits a quiz website*/
 body {
     font-family: 'Oswald', sans-serif;
     background-color: #ffffff;
@@ -8,7 +8,7 @@ body {
     padding: 0;
 }
 
-
+/*used percentages here for max-width so as not to have to use nedia queries for smaller devices*/
 #quiz {
     max-width: 65%;
     margin: 0 auto;
@@ -18,13 +18,8 @@ body {
     text-align: center;
 }
 
-
-.question {
-    font-family: 'Inter', sans-serif;
-    font-size: 22px;
-    color: darkgreen;
-}
-
+/* used darkgreen and white throughout the website as those are the Irish colors
+ and also compliment each other well allowing for a good user experience*/
 h1 {
     font-size: 78px;
     text-align: center;
@@ -36,6 +31,7 @@ h2 {
     text-decoration: underline;
 }
 
+/*this is for the text in the footer, I made the text underlined for that added bit of emphasis*/
 h3{
     font-size: 60px;
     text-align: center;
@@ -44,7 +40,14 @@ h3{
     text-decoration: underline;
 }
 
+.question {
+    font-family: 'Inter', sans-serif;
+    font-size: 22px;
+    color: darkgreen;
+}
 
+/* made the cursor change to a pointer and the color change to black of the submit button
+for ease of use to the user*/
 button[type="submit"] {
     display: block;
     margin: 30px auto;
@@ -61,6 +64,8 @@ button[type="submit"]:hover {
      background-color: black;
 }
 
+/*made the background white to stand out from the light gray background and 
+made the answer box a darker shade of grey when hovered over to allow for a more interactive user experience*/
 label {
     display: block;
     margin-bottom: 10px;

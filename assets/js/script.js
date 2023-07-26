@@ -1,3 +1,4 @@
+//this function adds up the amount of correct answers selected
 function calculateScore() {
     const questions = document.querySelectorAll('.question');
     let score = 0;
@@ -18,6 +19,8 @@ function calculateScore() {
     showResult(score);
 }
 
+/*this function shows the results, I made the page instrantly scroll to the results once the submit button had been hit 
+to ensure user would see answers immediately*/
 function showResult(score) {
     const resultContainer = document.getElementById('results');
     resultContainer.innerHTML = 'Your score: ' + score + ' out of 10';

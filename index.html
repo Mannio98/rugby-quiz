@@ -11,10 +11,12 @@
 </head>
 
 <body>
+    <!--A header to let the user know exactly what this website is about-->
     <header>
         <h1>Test your knowledge of Irelands RWC history</h1>
     </header>
-
+    
+    <!--these divs contain the questions and their id's and classes allow css and javascript to interact with them-->
     <div id="quiz">
         <div class="question" id="question0">
             <h2>Who is Ireland's all-time leading try-scorer in World Cup tournaments?</h2>
@@ -215,15 +217,18 @@
                 Denis Hickie
             </label>
         </div>
-
+        <!--removed onclick from here and replaced with below as after running my javascript code through JSHint
+             and then searching on slack I realised it was not best practice to use onclick in html-->
         <button type="submit" id="submitBtn">Submit Answers</button>
     </div>
+    <!--I used a couple of line breaks here to allow for some space between the questions and result and the results and footer-->
     <br>
     <div id="results"></div>
     <br>
     <footer>
         <h3>COME ON YOU BOYS IN GREEN!!!</h3>
     </footer>
+    <!--link to javascript -->
     <script src="assets/js/script.js"></script>
 </body>
 </html>
