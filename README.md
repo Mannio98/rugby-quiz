@@ -1,4 +1,4 @@
-#Irish RWC Quiz
+# Irish RWC Quiz
 
 With the fast approaching Rugby World Cup 2023 on the horizon this website aims to test the knowledge of Irish rugby fans.
 
@@ -6,8 +6,7 @@ Whether you are a newcomer to the sport or a chiseled veteran you will either le
 
 ![Screenshot of Am I Responsive website](/assets/images/responsive.png)
 
-
-##Features
+## Features
 
 - __Header__
 - Featured at the top of the page, the header lets the user know exactly what this website is about: Test your knowledge of Irelands RWC history.
@@ -29,7 +28,9 @@ Whether you are a newcomer to the sport or a chiseled veteran you will either le
 - When the user hovers over the submit button it turns black and the cursor turns into a pointer.
 - When the submit button is clicked your results instantly pop up telling the user what they've scored out of ten.
 - When the submit button is clicked the webpage automatically scrolls down to the results so the user can see them immediately.
+
 ![Screenshot of submit button being hovered over](/assets/images/submit-hover.png)
+
 ![Screenshot of Results](/assets/images/results.png)
 
 - __The Footer__
@@ -51,20 +52,22 @@ Whether you are a newcomer to the sport or a chiseled veteran you will either le
   ![Screenshot of Lighthouse score](/assets/images/lighthouse-score.png)
 
 ### Validator Testing
+
 - HTML: No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fmannio98.github.io%2Fknockma%2F#textarea)
 - CSS: No errors were found when passing through the official [Jigsaw validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fmannio98.github.io%2Frugby-quiz%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 - Javascript: No errors were found when passing through the [JSHint validator](https://jshint.com/)
 
 ## Deployment
 
-- The site was deployed to GitHub pages. The steps to deploy are as follows: 
-  - In the GitHub repository, navigate to the Settings tab 
-  - Selct the Pages option from the mu on the left
-  - Then click the save button and a link to your website will be generated 
+- The site was deployed to GitHub pages. The steps to deploy are as follows:
+  - In the GitHub repository, navigate to the Settings tab
+  - Select the Pages option from the menu on the left
+  - Then click the save button and a link to your website will be generated
 
    The live link can be found here - <https://mannio98.github.io/rugby-quiz/>
 
-##Credit
+## Credit
 
-###Questions
+### Questions
+
 The vast majority of questions and answers were confirmed by searching [Wikipedia](https://www.wikipedia.org/)
