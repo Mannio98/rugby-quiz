@@ -1,39 +1,70 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+#Irish RWC Quiz
 
-Welcome,
+With the fast approaching Rugby World Cup 2023 on the horizon this website aims to test the knowledge of Irish rugby fans.
 
-This is the Code Institute student template for Codeanywhere. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+Whether you are a newcomer to the sport or a chiseled veteran you will either learn something about the Irish rugby teams past performances or confirm your vast knowledge of all things oval ball. This site is easy to use so it's aimed at all ages and backgrounds.
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **May 11th, 2023**
+![Screenshot of Am I Responsive website](/assets/images/responsive.png)
 
-## Codeanywhere Reminders
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
+##Features
 
-`python3 -m http.server`
+- __Header__
+- Featured at the top of the page, the header lets the user know exactly what this website is about: Test your knowledge of Irelands RWC history.
+- The header is in a strong font and contrasts well with the background.
+![Screenshot of Header](/assets/images/header.png)
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+- __The Quiz Questions__
+- The quiz questions are in the same colour as the background of the header allowing for continuity and tidyness throughout the website
+- The questions are on a light grey background allowing for a subtle contrast with the background of the body.
+![Screenshot of Question](/assets/images/question.png)
+  
+- __The Answers__
+- There are four possible answers for each question.
+- The answers are on a white background which contrasts well with the light gray background of the quiz area.
+- When hovered over the background turns a darker shade of gray than than the quiz area background allowing for clarity for the user in which choice they are making.
+![Screenshot of Answers](/assets/images/answer.png)
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
+- __The Results__
+- When the user hovers over the submit button it turns black and the cursor turns into a pointer.
+- When the submit button is clicked your results instantly pop up telling the user what they've scored out of ten.
+- When the submit button is clicked the webpage automatically scrolls down to the results so the user can see them immediately.
+![Screenshot of submit button being hovered over](/assets/images/submit-hover.png)
+![Screenshot of Results](/assets/images/results.png)
 
-`http_server`
+- __The Footer__
+- The footer consists of a motivational slogan.
+![Screenshot of Footer](/assets/images/footer.png)
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+## Testing
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+  I tested the website on different screen sizes. Because max-width had been declared in percentage media queries were not necessary and all screen sizes worked.
+  
+  I tested the quiz on three different browsers Chrome, Firefox and Edge and it worked on all of them.
 
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+  I confirmed that the quiz results are always correct.
 
-To log into the Heroku toolbelt CLI:
+  I confirmed that the font of the header, body and footer were all legible.
 
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+  I confirmed that the website's performance, accesibility, best practices ans SEO were all acceptable by running the website through lighthouse and got full marks for all categories.
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+  ![Screenshot of Lighthouse score](/assets/images/lighthouse-score.png)
 
----
+### Validator Testing
+- HTML: No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fmannio98.github.io%2Fknockma%2F#textarea)
+- CSS: No errors were found when passing through the official [Jigsaw validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fmannio98.github.io%2Frugby-quiz%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+- Javascript: No errors were found when passing through the [JSHint validator](https://jshint.com/)
 
-Happy coding!
+## Deployment
+
+- The site was deployed to GitHub pages. The steps to deploy are as follows: 
+  - In the GitHub repository, navigate to the Settings tab 
+  - Selct the Pages option from the mu on the left
+  - Then click the save button and a link to your website will be generated 
+
+   The live link can be found here - <https://mannio98.github.io/rugby-quiz/>
+
+##Credit
+
+###Questions
+The vast majority of questions and answers were confirmed by searching [Wikipedia](https://www.wikipedia.org/)
